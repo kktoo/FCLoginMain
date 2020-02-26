@@ -22,6 +22,14 @@ namespace FCLoginMain
         public MainWindow()
         {
             InitializeComponent();
+
+            //设置窗体的启动位置
+            double screenW = SystemParameters.ScrollWidth;
+            double screenH = SystemParameters.ScrollHeight;
+            double offsetHorizontal = 100;
+            double offsetVertical = 200;
+            this.Left = (this.Width - screenW ) / 2 - offsetHorizontal;
+            this.Top = (this.Height - screenH) / 2 - offsetVertical;
         }
 
         private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
