@@ -29,5 +29,18 @@ namespace FCLoginMain
             this.DragMove();
         }
 
+        private void btnMinimized_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void btnLogon_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

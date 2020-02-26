@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FCLoginMain"
         mc:Ignorable="d"
-        Title="迅雷游戏登录器-大冲锋" Height="673" Width="950" AllowsTransparency="True" WindowStyle="None" OpacityMask="White" Background="Transparent">
+        Title="迅雷游戏登录器-大冲锋" Height="673" Width="950" AllowsTransparency="True" WindowStyle="None" OpacityMask="White" Background="Transparent" Icon="pack://siteoforigin:,,,/img/FCLoginMain.ico">
     <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown">
         <Image Stretch="Fill" Source="pack://siteoforigin:,,,/img/big_bkg.png"/>
+        <Button x:Name="btnClose" Content="" HorizontalAlignment="Left" Margin="897,231,0,0" VerticalAlignment="Top" Width="22" Height="29" Click="btnClose_Click" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_close_normal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnMinimized" Content="" HorizontalAlignment="Left" Margin="873,231,0,0" VerticalAlignment="Top" Width="22" Height="17" Click="btnMinimized_Click" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_minimize_normal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="643.847,449.999,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_logon_normal.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
