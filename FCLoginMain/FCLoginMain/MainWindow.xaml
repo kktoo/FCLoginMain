@@ -23,5 +23,8 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_logon_normal.png"/>
             </Button.Background>
         </Button>
+        <Label Content="游戏版本号：1.0.6 8166    登录器版本号：1.0.1.0045" HorizontalAlignment="Center" Margin="582,558,43,90" VerticalAlignment="Center" Foreground="#FFF7D328" FontSize="12" Width="325"/>
+        <Label Content="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" HorizontalAlignment="Center" Margin="284,0,55,58" VerticalAlignment="Bottom" Foreground="#FFAAAAAA"/>
+        <Label Content="科技与数字[2011]550号    文网游备字[2011]C_CSGO22号    软著登字0321535号    ISBN 987-7-89429-010-6" HorizontalAlignment="Center" Margin="266,0,43,37" VerticalAlignment="Bottom" Foreground="#FFAAAAAA" Width="641"/>
     </Grid>
 </Window>
