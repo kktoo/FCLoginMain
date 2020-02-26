@@ -18,7 +18,7 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_minimize_normal.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="643.847,449.999,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click">
+        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="643.847,449.999,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_logon_normal.png"/>
             </Button.Background>
