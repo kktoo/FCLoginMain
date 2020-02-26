@@ -34,21 +34,38 @@ namespace FCLoginMain
 
         private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            //实现窗体拖动
             this.DragMove();
         }
-
+        /// <summary>
+        /// 窗体最小化按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnMinimized_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
         }
-
+        /// <summary>
+        /// 窗体关闭按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Environment.Exit(0);
+            //this.Close();
+            //App.Current.Shutdown();
         }
+        /// <summary>
+        /// 请求登陆按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLogon_Click(object sender, RoutedEventArgs e)
         {
-
+            //启动另一个可执行程序，一般是exe文件
+            System.Diagnostics.Process.Start("FinalCombat.exe");
         }
     }
 }
