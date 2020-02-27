@@ -18,13 +18,50 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_minimize_normal.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="643.847,449.999,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click" BorderThickness="0">
+        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="635,449,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_logon_normal.png"/>
             </Button.Background>
         </Button>
         <Label Content="游戏版本号：1.0.6 8166    登录器版本号：1.0.1.0045" HorizontalAlignment="Center" Margin="582,558,43,90" VerticalAlignment="Center" Foreground="#FFF7D328" FontSize="12" Width="325"/>
-        <Label Content="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" HorizontalAlignment="Center" Margin="284,0,55,58" VerticalAlignment="Bottom" Foreground="#FFAAAAAA"/>
-        <Label Content="科技与数字[2011]550号    文网游备字[2011]C_CSGO22号    软著登字0321535号    ISBN 987-7-89429-010-6" HorizontalAlignment="Center" Margin="266,0,43,37" VerticalAlignment="Bottom" Foreground="#FFAAAAAA" Width="641"/>
+        <Label Content="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" HorizontalAlignment="Center" Margin="282,0,57,57" VerticalAlignment="Bottom" Foreground="#FFAAAAAA"/>
+        <Label Content="科技与数字[2011]550号    文网游备字[2011]C_CSGO22号    软著登字0321535号    ISBN 987-7-89429-010-6" HorizontalAlignment="Center" Margin="266,0,43,37" VerticalAlignment="Bottom" Foreground="#FFAAAAAA"/>
+        <Image HorizontalAlignment="Left" Height="67" Margin="569,322,0,0" VerticalAlignment="Top" Width="350" Source="pack://siteoforigin:,,,/img/account_psw.png"/>
+        <Button x:Name="btnSetting" Content="" HorizontalAlignment="Left" Margin="569,514,0,0" VerticalAlignment="Top" Width="173" Height="39" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_setting_normal.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnAcc" Content="" HorizontalAlignment="Left" Margin="745,515,0,0" VerticalAlignment="Top" Width="174" Height="39" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/launch_acc_btn_normal.png" Stretch="None"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="136" Margin="264,301,0,0" VerticalAlignment="Top" Width="298" Source="pack://siteoforigin:,,,/img/ad_1.png"/>
+        <Button x:Name="btnHp" Content="" HorizontalAlignment="Left" Margin="464,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_hp_normal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnRegister" Content="" HorizontalAlignment="Left" Margin="555,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_register_normal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnGuide" Content="" HorizontalAlignment="Left" Margin="646,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_guide_normal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnForum" Content="" HorizontalAlignment="Left" Margin="737,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_forum_normal.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnPay" Content="" HorizontalAlignment="Left" Margin="828,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_pay_normal.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

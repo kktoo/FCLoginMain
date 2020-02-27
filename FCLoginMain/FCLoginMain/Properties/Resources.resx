@@ -121,6 +121,18 @@
   <data name="account_psw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\account_psw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ad_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ad_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ad_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ad_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ad_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ad_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ad_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ad_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="big_bkg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\big_bkg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
