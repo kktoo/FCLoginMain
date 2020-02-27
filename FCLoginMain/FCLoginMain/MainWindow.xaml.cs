@@ -65,7 +65,7 @@ namespace FCLoginMain
         private void btnLogon_Click(object sender, RoutedEventArgs e)
         {
             //启动另一个可执行程序，一般是exe文件
-            System.Diagnostics.Process.Start("FinalCombat.exe");
+            //System.Diagnostics.Process.Start("FinalCombat.exe");
         }
         /// <summary>
         /// 用户协议超链接文字-鼠标进入 显示下划线

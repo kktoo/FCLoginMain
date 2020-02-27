@@ -12,16 +12,79 @@
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_close_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_close_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_close_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_close_active.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnMinimized" Content="" HorizontalAlignment="Left" Margin="873,231,0,0" VerticalAlignment="Top" Width="22" Height="17" Click="btnMinimized_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_minimize_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_minimize_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_minimize_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_minimize_active.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="636,449,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_logon_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img//button_logon_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_logon_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_logon_down.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Label Content="游戏版本号：1.0.6 8166    登录器版本号：1.0.1.0045" HorizontalAlignment="Center" Margin="582,558,43,90" VerticalAlignment="Center" Foreground="#FFF7D328" FontSize="12" Width="325"/>
         <Label Content="抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活" HorizontalAlignment="Center" Margin="282,0,57,57" VerticalAlignment="Bottom" Foreground="#FFAAAAAA"/>
@@ -31,37 +94,184 @@
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_setting_normal.png" Stretch="None"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_setting_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_setting_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_setting_active.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnAcc" Content="" HorizontalAlignment="Left" Margin="746,515,0,0" VerticalAlignment="Top" Width="174" Height="39" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/launch_acc_btn_normal.png" Stretch="None"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/launch_acc_btn_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/launch_acc_btn_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/launch_acc_btn_active.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Image HorizontalAlignment="Left" Height="136" Margin="264,301,0,0" VerticalAlignment="Top" Width="298" Source="pack://siteoforigin:,,,/img/ad_1.png"/>
         <Button x:Name="btnHp" Content="" HorizontalAlignment="Left" Margin="464,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_hp_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_hp_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_hp_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_hp_active.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnRegister" Content="" HorizontalAlignment="Left" Margin="555,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_register_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_register_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_register_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_register_down.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnGuide" Content="" HorizontalAlignment="Left" Margin="646,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_guide_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_guide_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_guide_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_guide_down.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnForum" Content="" HorizontalAlignment="Left" Margin="737,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_forum_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_forum_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_forum_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_forum_down.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <Button x:Name="btnPay" Content="" HorizontalAlignment="Left" Margin="828,265,0,0" VerticalAlignment="Top" Width="91" Height="25" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_pay_normal.png"/>
             </Button.Background>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                                    <Image x:Name="Img" VerticalAlignment="Center" HorizontalAlignment="Center" Source="pack://siteoforigin:,,,/img/button_pay_normal.png" Stretch="None"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_pay_active.png"/>
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                        <Setter TargetName="Img" Property="Source" Value="pack://siteoforigin:,,,/img/button_pay_down.png"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
         </Button>
         <CheckBox Content="记住账号" HorizontalAlignment="Left" Margin="625,400,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
         <CheckBox Content="我已阅读并同意" HorizontalAlignment="Left" Margin="625,420,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
