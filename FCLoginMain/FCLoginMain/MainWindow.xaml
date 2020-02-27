@@ -63,5 +63,7 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_pay_normal.png"/>
             </Button.Background>
         </Button>
+        <CheckBox Content="记住账号" HorizontalAlignment="Left" Margin="625,400,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
+        <CheckBox Content="我已阅读并同意" HorizontalAlignment="Left" Margin="625,420,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
     </Grid>
 </Window>
