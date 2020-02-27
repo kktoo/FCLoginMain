@@ -67,5 +67,32 @@ namespace FCLoginMain
             //启动另一个可执行程序，一般是exe文件
             System.Diagnostics.Process.Start("FinalCombat.exe");
         }
+        /// <summary>
+        /// 用户协议超链接文字-鼠标进入 显示下划线
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Hyperlink_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 用户协议超链接文字-鼠标离开 隐藏下划线
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Hyperlink_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 用户协议超链接文字-鼠标点击 打开用户协议
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

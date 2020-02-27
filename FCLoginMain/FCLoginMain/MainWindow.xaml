@@ -67,5 +67,15 @@
         <CheckBox Content="我已阅读并同意" HorizontalAlignment="Left" Margin="625,420,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
         <TextBox x:Name="textBoxAccount" VerticalContentAlignment="Center" Height="22" Margin="696,330,74,0" TextWrapping="Wrap" Text="d01" VerticalAlignment="Top" Width="180" Background="{x:Null}" Foreground="#FFFAFAFA" BorderThickness="0" CaretBrush="#FFFAFAFA" MaxLength="40"/>
         <PasswordBox x:Name="psBox" VerticalContentAlignment="Center" Margin="696,362,75,0" VerticalAlignment="Top" Width="179" Background="{x:Null}" Foreground="#FFFAFAFA" BorderThickness="0" CaretBrush="#FFFAFAFA" MaxLength="40"/>
+        <TextBlock  HorizontalAlignment="Left" Margin="740,419,0,239" >
+            <Hyperlink FontSize="12" MouseEnter="Hyperlink_MouseEnter" Foreground="#FFFAFAFA" MouseLeave="Hyperlink_MouseLeave" Click="Hyperlink_Click">
+                <TextBlock Text = "《用户使用协议》" Foreground="#FFF7D328"></TextBlock>
+            </Hyperlink>
+        </TextBlock>
+        <Label Content="[公告]《大冲锋》开服公告				11-11" HorizontalAlignment="Left" Margin="264,440,0,0" VerticalAlignment="Top" Width="291" Foreground="#FFFA0000" FontWeight="Bold" FontSize="14"/>
+        <Label Content="[公告]《大冲锋》运营公告				12-00" HorizontalAlignment="Left" Margin="264,465,0,0" VerticalAlignment="Top" Width="291" Foreground="#FFFA0000" FontWeight="Bold" FontSize="14"/>
+        <Label Content="[公告]《大冲锋》十元夺宝活动公告		01-09" HorizontalAlignment="Left" Margin="264,490,0,0" VerticalAlignment="Top" Width="291" Foreground="#FFFA0000" FontWeight="Bold" FontSize="14"/>
+        <Label Content="[公告]2月14日《大冲锋》情人节活动公告" HorizontalAlignment="Left" Margin="264,515,0,0" VerticalAlignment="Top" Width="291" Foreground="#FFFAFAFA" FontWeight="Bold" FontSize="14"/>
+
     </Grid>
 </Window>
