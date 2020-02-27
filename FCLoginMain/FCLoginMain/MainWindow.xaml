@@ -18,7 +18,7 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_minimize_normal.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="635,449,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click" BorderThickness="0">
+        <Button x:Name="btnLogon" Content="" HorizontalAlignment="Left" Margin="636,449,0,0" VerticalAlignment="Top" Width="211" Height="106" Click="btnLogon_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_logon_normal.png"/>
             </Button.Background>
@@ -32,7 +32,7 @@
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/button_setting_normal.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnAcc" Content="" HorizontalAlignment="Left" Margin="745,515,0,0" VerticalAlignment="Top" Width="174" Height="39" BorderThickness="0">
+        <Button x:Name="btnAcc" Content="" HorizontalAlignment="Left" Margin="746,515,0,0" VerticalAlignment="Top" Width="174" Height="39" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/img/launch_acc_btn_normal.png" Stretch="None"/>
             </Button.Background>
@@ -65,5 +65,7 @@
         </Button>
         <CheckBox Content="记住账号" HorizontalAlignment="Left" Margin="625,400,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
         <CheckBox Content="我已阅读并同意" HorizontalAlignment="Left" Margin="625,420,0,0" VerticalAlignment="Top" Foreground="#FFFAFAFA" IsChecked="True"/>
+        <TextBox x:Name="textBoxAccount" VerticalContentAlignment="Center" Height="22" Margin="696,330,74,0" TextWrapping="Wrap" Text="d01" VerticalAlignment="Top" Width="180" Background="{x:Null}" Foreground="#FFFAFAFA" BorderThickness="0" CaretBrush="#FFFAFAFA" MaxLength="40"/>
+        <PasswordBox x:Name="psBox" VerticalContentAlignment="Center" Margin="696,362,75,0" VerticalAlignment="Top" Width="179" Background="{x:Null}" Foreground="#FFFAFAFA" BorderThickness="0" CaretBrush="#FFFAFAFA" MaxLength="40"/>
     </Grid>
 </Window>
